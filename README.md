@@ -9,9 +9,11 @@ Cable Engineering Tool supports electrical cable design workflows within Autodes
 
 - **Revit Model Validation:** Checks relevant electrical and containment data before design calculations.
 - **Cable Routing:** Graph-based routing using the Dijkstra algorithm across supported cable containment elements.
+-  **Installation Environment:** Analysis: Analyzes cable containment locations to determine installation ambient temperature conditions,
+                               supports temperature-factor assignment, and allows engineering review and adjustment of estimated values.
 - **IEC-Based Cable Sizing:** Cable selection and electrical checks using implemented IEC equations and reference tables.
 - **Electrical Calculations:** Voltage drop, short-circuit withstand, breaker , neutral conductor sizing, and earthing conductor sizing.
-- **Installation Conditions:** Considers environmental temperature and cable grouping factors in cable sizing.
+- **Cable Installation Factors:** Considers installation temperature and cable grouping conditions when calculating cable current-carrying capacity.
 - **Design Reporting:** Generates Excel reports for engineering review and validation.
 
 ## Technical Stack
