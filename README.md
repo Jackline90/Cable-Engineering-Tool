@@ -12,7 +12,7 @@ Cable Engineering Tool supports electrical cable design workflows within Autodes
 - **Cable Routing:** Graph-based routing using Dijkstra's algorithm across supported cable containment elements.
 - **Installation Environment Analysis:** Analyzes cable containment locations to determine installation ambient temperature conditions, supports temperature-factor assignment, and allows engineering review and adjustment of estimated values.
 - **IEC-Based Cable Sizing:** Performs cable selection and electrical checks using implemented IEC equations and reference tables.
-- **Electrical Calculations:** Performs voltage drop, short-circuit withstand, circuit-breaker checks, neutral conductor sizing, and earthing conductor sizing.
+- **Electrical Calculations**: Performs voltage drop calculations, short-circuit current calculations, cable thermal withstand verification, circuit-breaker checks, neutral conductor sizing, and earthing conductor sizing.
 - **Cable Installation Factors:** Considers installation temperature and cable grouping conditions when calculating cable current-carrying capacity.
 - **Design Reporting:** Generates Excel reports for engineering review and validation.
 
